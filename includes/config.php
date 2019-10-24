@@ -15,8 +15,5 @@ define ("DBNAME", "test");
 
 // Till studenter.miun.se
 
-define ("HOST", "studentmysql.miun.se");
-define ("USERNAME", "joro1803");
-define ("PASSWORD", "mcihp7dg");
-define ("DBNAME", "joro1803");
+
 
