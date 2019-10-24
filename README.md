@@ -7,7 +7,7 @@ Webbtjänsten finns på denna länk --> https://studenter.miun.se/~joro1803/dt17
 
 Webblänkar för att använda CRUD:
 
-* Lägg till kurs: curl -i -X POST -d '{"code":"DT057G","name":"Webbutveckling I", "progression":"A", "syllabus":"https://www.miun.se/utbildning/kursplaner-och-utbildningsplaner/Sok-kursplan/kursplan/?kursplanid=17948"}' https://studenter.miun.se/~joro1803/dt173g/moment5_rest/courselist.php/courses
+* Lägg till kurs: curl -i -X POST -d '{"code":"DTTEST","name":"Webbutveckling", "progression":"A", "syllabus":"https://www.miun.se"}' https://studenter.miun.se/~joro1803/dt173g/moment5_rest/courselist.php/courses
 
 * Hämta alla kurser -> curl -i -X GET https://studenter.miun.se/~joro1803/dt173g/moment5_rest/courselist.php/courses
 
